@@ -1,0 +1,90 @@
+h1 {
+    color: #6e45a3;
+    border: 5px solid #6e45a3;
+}
+
+h1:hover {
+    color: teal;
+    border: 5px solid teal;
+
+}
+
+.carre {
+    width: 100px;
+    height: 100px;
+    background-color: #6e45a3;
+}
+
+.carre:active {
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+}
+
+.focus:focus {
+    background-color: teal;
+    color: white;
+    border-color: #6e45a3;
+}
+
+.range:in-range {
+    background-color: rgb(117, 224, 113);
+}
+
+.range:out-of-range {
+    background-color: rgb(199, 62, 62);
+}
+
+input[type="email"]:valid {
+    background-color: yellowgreen;
+}
+
+input[type="email"]:invalid {
+    background-color: red;
+}
+
+.carre1 {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 5px;
+    cursor: wait;
+
+}
+
+.carre2 {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 5px;
+    cursor: zoom-in;
+}
+
+.carre2:active {
+    width: 200px;
+    height: 200px;
+}
+
+.carre3 {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 5px;
+    cursor: grabbing;
+}
+
+.carre4 {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 5px;
+    cursor: alias;
+}
+
+.carre5 {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 5px;
+    cursor: copy;
+}
