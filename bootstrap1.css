@@ -1,0 +1,11 @@
+
+article {
+    height: 100px;
+    width: 250px;
+}
+
+.cadre {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 20px;
+}
